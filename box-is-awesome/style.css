@@ -1,0 +1,28 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
+
+body,
+main {
+  height: 100%;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  border: var(--border-size-2) solid var(--surface-3);
+  background-color: var(--purple-12);
+}
+
+.box {
+  font-size: var(--font-size-fluid-3);
+  text-transform: uppercase;
+  border: var(--border-size-2) solid var(--surface-3);
+  padding: var(--size-fluid-3);
+  margin: var(--size-fluid-6);
+  background-color: var(--teal-12);
+  width: var(--size-relative-11);
+}
