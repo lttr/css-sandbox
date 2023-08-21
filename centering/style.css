@@ -15,6 +15,7 @@ main {
 .wrapper {
   border: var(--border-size-2) solid var(--surface-3);
   background-color: var(--purple-12);
+  width: 30rem;
 }
 
 .box {
@@ -22,7 +23,12 @@ main {
   text-transform: uppercase;
   border: var(--border-size-2) solid var(--surface-3);
   padding: var(--size-fluid-3);
-  margin: var(--size-fluid-6);
   background-color: var(--teal-12);
-  width: var(--size-relative-11);
+  max-width: var(--size-relative-11);
+  margin-inline: auto;
+  margin-block: var(--size-fluid-2);
+}
+
+.box2 {
+  box-sizing: content-box;
 }

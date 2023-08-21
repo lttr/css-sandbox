@@ -1,0 +1,84 @@
+@import "../node_modules/open-props/open-props.min.css";
+@import "../node_modules/open-props/normalize.min.css";
+@import "../node_modules/open-props/buttons.min.css";
+
+body,
+main {
+  height: 100%;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  margin-bottom: var(--size-fluid-1);
+  text-align: center;
+}
+
+.wrapper {
+  padding: var(--size-fluid-2);
+  border: var(--border-size-2) solid var(--surface-3);
+  background-color: var(--purple-12);
+}
+
+:root {
+  --ratio: 1.414;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+}
+
+.s-5 {
+  width: var(--s-5);
+}
+.s-4 {
+  width: var(--s-4);
+}
+.s-3 {
+  width: var(--s-3);
+}
+.s-2 {
+  width: var(--s-2);
+}
+.s-1 {
+  width: var(--s-1);
+}
+.s0 {
+  width: var(--s0);
+}
+.s1 {
+  width: var(--s1);
+}
+.s2 {
+  width: var(--s2);
+}
+.s3 {
+  width: var(--s3);
+}
+.s4 {
+  width: var(--s4);
+}
+.s5 {
+  width: var(--s5);
+}
+
+.box {
+  display: inline-block;
+  aspect-ratio: 1;
+  background-color: var(--teal-8);
+  margin-left: var(--size-1);
+}
+
+.base {
+  background-color: var(--choco-8);
+}
