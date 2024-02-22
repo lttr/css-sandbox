@@ -1,0 +1,52 @@
+@import "../node_modules/open-props/open-props.min.css";
+@import "../node_modules/open-props/normalize.min.css";
+@import "../node_modules/open-props/buttons.min.css";
+
+body,
+main {
+  height: 100%;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  gap: var(--size-fluid-1);
+}
+
+.box {
+  font-size: var(--font-size-fluid-2);
+  color: var(--surface-1);
+  text-transform: uppercase;
+  border: var(--border-size-2) solid var(--surface-4);
+  background-color: var(--teal-10);
+  max-width: var(--size-relative-11);
+  padding: var(--size-fluid-1);
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.break {
+  overflow-wrap: break-word;
+}
+
+.min-width {
+  min-width: 0;
+}
+
+.input-wrapper {
+  border: var(--border-size-2) dashed var(--surface-4);
+  padding: var(--size-2);
+  resize: horizontal;
+  overflow-x: scroll;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  gap: var(--size-fluid-1);
+}
+
+input[type="text"] {
+  border: 1px solid var(--blue-5);
+}
