@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>centering</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h2>CSS Editor</h2>
+      <section class="wrapper">
+        <div class="container container-display">
+          <div class="display parent">
+            <div class="box">:)</div>
+          </div>
+        </div>
+        <div class="container container-code">
+          <pre><style class="code" contenteditable="plaintext-only">.parent {
+  display: grid;
+  place-items: center;
+}
+</style></pre>
+        </div>
+      </section>
+
+      <hr />
+
+      <h2>HTML Editor</h2>
+      <section class="wrapper">
+        <div class="container container-display preview" id="preview"></div>
+        <div class="container container-code">
+          <textarea id="editor" class="code" placeholder="Type HTML here...">
+<h1>Hello World</h1>
+<p>Edit the HTML on the right!</p>
+</textarea
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+@import "../node_modules/open-props/open-props.min.css";
+@import "../node_modules/open-props/normalize.min.css";
+@import "../node_modules/open-props/buttons.min.css";
+
+body,
+main {
+  height: 100%;
+}
+
+main {
+  padding: 2rem;
+}
+
+.wrapper {
+  padding-block: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.container {
+  background-color: var(--surface-3);
+  width: 30rem;
+  height: 24rem;
+}
+
+.container-display {
+  position: relative;
+  overflow: hidden;
+  resize: both;
+}
+
+.display {
+  width: 100%;
+  height: 100%;
+}
+
+.container-code {
+  width: 35rem;
+  color: var(--text-1);
+  background-color: var(--surface-2);
+  padding: 1rem;
+  align-items: start;
+  justify-items: start;
+}
+
+pre {
+  width: 100%;
+  max-width: 100%;
+}
+
+.code {
+  display: block;
+  overflow-y: scroll;
+  max-height: 22rem;
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  background-color: var(--surface-2);
+  margin-bottom: var(--size-3);
+  padding: 1rem;
+  margin-top: -1px;
+  font-size: var(--font-size-3);
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: var(--orange-10);
+  font-size: var(--font-size-fluid-2);
+  padding: var(--size-fluid-2);
+  border-radius: var(--radius-3);
+}
